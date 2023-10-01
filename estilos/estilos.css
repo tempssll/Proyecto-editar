@@ -1,0 +1,111 @@
+body {
+  background-color: yellow;
+}
+
+/* Estilos para el título principal */
+.subir {
+  text-align: center;
+  font-size: 50px;
+  color: red;
+  margin-top: 20px;
+}
+
+/* Estilos para el formulario de carga de imágenes */
+form {
+  text-align: center;
+  margin-top: 20px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para el botón de ver imágenes */
+.mostrar {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button[type="submit"] {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #1e7e34;
+}
+
+/* Estilo para el botón "Seleccionar Archivo" */
+input[type="file"] {
+  display: none;
+}
+
+/* Estilo para el botón personalizado */
+.upload-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.upload-button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para el cuadro de notificación de que la imagen se subio correctamente */
+.notification {
+  background-color: green; /* Color verde */
+  color: white;
+  padding: 10px;
+  width: 20%;
+  text-align: center;
+  display: none;
+  text-align: center;
+}
+
+.notification.hidden {
+  text-align: center;
+}
+
+/* ************************************************************************* */
+/* Estilos para los contenedores de imágenes */
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.image-container {
+  flex-basis: calc(33.33% - 20px);
+  margin: 10px;
+  border: 2px solid #28a745;
+  padding: 5px;
+  text-align: center;
+  box-sizing: border-box; /* Asegura que el padding y el borde se incluyan en el ancho */
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.img {
+  text-align: center;
+  font-size: 40px;
+  background-color: blue;
+}
